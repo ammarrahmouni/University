@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--  Login color  -->
+    <color name="login_background">#ffffb3</color>
+    <color name="login_shape_img">#00ccff</color>
+    <color name="login_shape_btn_log">#ff5680</color>
+    <color name="login_shape_btn_register">#5e5abd</color>
+
+    <!-- SignUp color   -->
+    <color name="signup_background">#e33f3e</color>
+    <color name="signup_btn_create">#cb1d1c</color>
+    <!--  Basic color  -->
+    <color name="white">#FFFF</color>
+    <color name="black">#000000</color>
+
+    <!--  Recycler University  -->
+    <color name="Recycler_University_background">#00ff80</color>
+    <color name="Recycler_university_actionbar">#CFF0CC</color>
+
+    <!-- University Description   -->
+    <color name="university_description_actionbar">#0000574B</color>
+    <color name="university_description_background">#A5F7E1</color>
+    <color name="university_description_btn_add">#66ff66</color>
+    <color name="university_description_floating_btn">#ff5781</color>
+</resources>

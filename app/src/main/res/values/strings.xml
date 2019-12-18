@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">University</string>
+    <!-- Login String   -->
+    <string name="login_et_username_hint">Enter Email</string>
+    <string name="login_et_password_hint">Enter Password</string>
+    <string name="login_btn_log">Login</string>
+    <string name="login_btn_register">SignUp</string>
+
+    <!--  Signup Activity  -->
+    <string name="sigunup_et_name_hint">Name</string>
+    <string name="sigunup_et_surname_hint">Surname</string>
+    <string name="sigunup_et_email_hint">Email</string>
+    <string name="sigunup_et_password_hint">Password</string>
+    <string name="sigunup_et_confirm_hint">Confirm Password</string>
+    <string name="sigunup_btn_create">CREATE ACCOUNT</string>
+
+    <!-- Menu   -->
+    <string name="menu_all">All Universities</string>
+    <string name="menu_favorite">Favorite</string>
+
+    <!--  University Description  -->
+    <string name="university_description_tv_kname">Name : </string>
+    <string name="university_description_tv_karrange">Ranking : </string>
+    <string name="university_description_tv_kcity">City : </string>
+    <string name="university_description_tv_klanguage">Language : </string>
+    <string name="university_description_tv_kregister_start_date">Registration start date : </string>
+    <string name="university_description_tv_kregister_end_date">Registration end date : </string>
+    <string name="university_description_tv_kdescription">Description : </string>
+    <string name="university_description_tv_klink">Registration link : </string>
+    <string name="university_description_btn_add">Add To Favorite</string>
+
+    <!-- University Information   -->
+    <string name="istanbul_university_name">Istanbul University</string>
+    <string name="ankara_university_name">Ankara University</string>
+    <string name="uludag_university_name">Uludag University</string>
+    <string name="samsun_university_name">On Dokuz Mayis University</string>
+    <string name="hacitepe_university_name">Hacettepe University</string>
+    <string name="dokuzeylul_university_name">Dokuz Eylul University</string>
+    <string name="akdeniz_university_name">Akdeniz University</string>
+    <string name="gaziante_university_name">Gaziantep University</string>
+
+    <string name="istanbul_university_level">2</string>
+    <string name="ankara_university_level">7</string>
+    <string name="uludag_university_level">15</string>
+    <string name="samsun_university_level">29</string>
+    <string name="hacitepe_university_level">4</string>
+    <string name="dokuzeylul_university_level">13</string>
+    <string name="akdeniz_university_level">24</string>
+    <string name="gaziante_university_level">22</string>
+
+    <string name="istanbul_university_language">Arabic, English and Turkish</string>
+    <string name="ankara_university_language"> English and Turkish</string>
+    <string name="uludag_university_language">Turkish</string>
+    <string name="samsun_university_language"> English and Turkish</string>
+    <string name="hacitepe_university_language"> English and Turkish</string>
+    <string name="dokuzeylul_university_language">Turkish</string>
+    <string name="akdeniz_university_language"> English and Turkish</string>
+    <string name="gaziante_university_language"> English and Turkish</string>
+
+    <string name="istanbul_university_city">Istanbul</string>
+    <string name="ankara_university_city"> Ankara</string>
+    <string name="uludag_university_city">Bursa</string>
+    <string name="samsun_university_city">Samsun</string>
+    <string name="hacitepe_university_city">Ankara</string>
+    <string name="dokuzeylul_university_city">Izmir</string>
+    <string name="akdeniz_university_city">Antalya</string>
+    <string name="gaziante_university_city">Gaziantep</string>
+
+    <string name="istanbul_university_desc">
+        It is an ancient public university that is considered the oldest and largest in Turkey, since its establishment dates back to 1453 AD after the conquest of Istanbul by the Ottoman army led by Sultan Mehmed II (Al-Fatih).
+        In recent years, the University of Istanbul has entered the rankings of the top 500 universities in the world, bypassing many international and Turkish universities, and the University of Istanbul is considered among the top 10 Turkish universities to maintain their primary position and prestigious position at all levels "scientific, practical, cultural and social" over the years.
+        More than 74 thousand university students and 8 thousand graduate students study at the university, as well as 5300 employees and faculty members work in the university .. The university contains about 20 colleges, 16 institutes and 35 research centers
+    </string>
+
+    <string name="ankara_university_desc">
+    The university is located in the Turkish capital of Ankara and is characterized by accurate scientific research that moved the Turkish community to a high level of culture and provided him with the ability to integrate with the outside world and became one of the innovative universities that made a change at the global level
+    The University of Ankara is the first university in the Turkish Republic, which has been able to establish itself in the broad areas of life and has entrenched the minds of its children in many attributes, including critical thinking and the ability to solve problems, and it is one of the universities most closely associated with development and modernity.
+    The university contains a huge teaching staff from various specializations. For example, the university has about 1246 professors, 50 doctors and more than 700 lecturers and the number of its students is approximately 64035 students. She also participated in many projects, including 136 projects in the field of science and 157 in the field of health and 23 in the social field
+    </string>
+
+    <string name="uludag_university_desc">
+        It is a public university founded in the city of Bursa in 1975, and at first it was called Bursa University, but with the issuance of the law in 1982 it changed its name to Uludag University.
+        Uludag University, led by reason and science, aspires to educate its students to respect the national principles of cultural and historical values ​​of the country,
+        In the position of President of the University, Prof. Dr. Yusuf Olgay and his assistants, Prof. Tawfiq Yoga Dogro, Dr. Professor Eray Albar and Dr. Prof. Muhammad Yoga.
+        The number of students at the university reached 44071 male and female students according to the statistics of the academic year 2011/2010 and the number of members of the teaching staff and the administrative body is 2071 members according to the statistics of 2003
+    </string>
+
+    <string name="samsun_university_desc">
+        Ondokuz Mayıs University State University was founded in 1975 in Samsun, northern Turkey, and it is considered one of the leading universities in Turkey, ranking 28th among Turkish universities, and the university seeks to raise the quality of scientific research, and aims to be a pioneer in innovation in the field of Science and Technology
+    </string>
+
+    <string name="hacitepe_university_desc">
+        It was initially established as part of the University of Ankara in 1954 and then laid the foundation stone for the university by opening the Institute of Child Health and a private hospital in 1957, which began with its activities and training in 1958, this university expanded and opened many colleges and its establishment was officially announced on July 8 of 1967
+        The university has two campuses: the first is located in the old city of Ankara and hosts the medical center, and the second is the Haji Tiba campus, which is 13 km from the city center and covers 210,238 square meters of green lands and forests, and includes colleges of economic and administrative sciences, education, engineering, fine arts and literature, and science .
+    </string>
+
+    <string name="dokuzeylul_university_desc">
+        The “September 9” State University was established on the twenty-second of July 1982 in the Izmir Province in western Turkey, with the aim of contributing to social, cultural, technical, and financial development in the Turkish Republic.
+        Today, the university includes 13 colleges, 5 institutes, and 5 colleges for postgraduate study, in addition to 54 research centers, and it receives more than 65,000 students, under the supervision of a faculty comprising approximately 3310 professors, lecturers, and lecturers. The university is taught in English and Turkish.
+    </string>
+
+    <string name="akdeniz_university_desc">
+        It is one of the governmental universities ,, It was established to meet the requirements of university education in the western region of the Mediterranean coast in the province of Antalya in 1982.
+        The university currently provides its university educational services and all means of education, research, academic achievement and great successes at the local and international levels in the fields of science, social and arts. Currently, the university includes more than 18 colleges, 7 institutes, 4 higher education institutes, one music institute center and 11 higher institutes for vocational training.
+    </string>
+
+    <string name="gaziante_university_desc">
+        "Gaziantep" State University was established in 1987, in the state of "Gaziantep" in southern Turkey. The university aims to develop views regarding basic social issues, scientific and cultural exchanges with scientific institutions at the national and international level, broadening horizons of science, art and culture, and contributing to The rise of Turkey.
+    </string>
+
+
+</resources>

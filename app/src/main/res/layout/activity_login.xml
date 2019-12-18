@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/login_iv_personel"
+        android:layout_width="@dimen/login_img_wh"
+        android:layout_height="@dimen/login_img_wh"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/login_img_marg"
+        android:background="@drawable/login_shape_img"
+        android:padding="@dimen/login_img_padding"
+        app:srcCompat="@drawable/graduate" />
+
+    <EditText
+        android:id="@+id/login_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/login_et_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:drawableEnd="@drawable/ic_user"
+        android:ems="10"
+        android:hint="@string/login_et_username_hint"
+        android:inputType="textPersonName"
+        android:padding="@dimen/login_et_lrb" />
+
+    <EditText
+        android:id="@+id/login_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/login_et2_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:drawableEnd="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="@string/login_et_password_hint"
+        android:inputType="textPassword"
+        android:padding="@dimen/login_et_lrb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/login_lineer_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login_btn_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/login_et_lrb"
+            android:layout_weight="1"
+            android:background="@drawable/login_shape_btn_log"
+            android:text="@string/login_btn_log"
+            android:textColor="@color/white"
+            android:textSize="@dimen/login_btn_txt" />
+
+        <Button
+            android:id="@+id/login_btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/login_et_lrb"
+            android:layout_weight="1"
+            android:background="@drawable/login_shape_btn_register"
+            android:text="@string/login_btn_register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/login_btn_txt" />
+    </LinearLayout>
+</LinearLayout>

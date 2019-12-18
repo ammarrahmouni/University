@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login Dimens   -->
+    <dimen name="login_img_wh">125dp</dimen>
+    <dimen name="login_img_marg">75dp</dimen>
+    <dimen name="login_img_padding">5dp</dimen>
+    <dimen name="login_et_lrb">15dp</dimen>
+    <dimen name="login_et_mtop">50dp</dimen>
+    <dimen name="login_et2_mtop">25dp</dimen>
+    <dimen name="login_lineer_margin">20dp</dimen>
+    <dimen name="login_btn_txt">20sp</dimen>
+
+    <!--  Signup dimens  -->
+    <dimen name="signup_et_mtop">10dp</dimen>
+
+    <!--  university description  -->
+    <dimen name="university_description_mCity">70dp</dimen>
+    <dimen name="university_description_mend_date">23dp</dimen>
+    <dimen name="university_description_mleve">30dp</dimen>
+
+</resources>

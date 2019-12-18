@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/signup_background"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/signup_im_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_et_mtop"
+        app:srcCompat="@drawable/asd" />
+
+    <EditText
+        android:id="@+id/signup_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/signup_et_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:ems="10"
+        android:hint="@string/sigunup_et_name_hint"
+        android:inputType="textPersonName"
+        android:padding="@dimen/login_et_lrb" />
+
+    <EditText
+        android:id="@+id/signup_et_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/signup_et_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:ems="10"
+        android:hint="@string/sigunup_et_surname_hint"
+        android:inputType="textPersonName"
+        android:padding="@dimen/login_et_lrb" />
+
+    <EditText
+        android:id="@+id/signup_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/signup_et_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:ems="10"
+        android:hint="@string/sigunup_et_email_hint"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/login_et_lrb" />
+
+    <EditText
+        android:id="@+id/signup_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/signup_et_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:ems="10"
+        android:hint="@string/sigunup_et_password_hint"
+        android:inputType="textPassword"
+        android:padding="@dimen/login_et_lrb" />
+
+    <EditText
+        android:id="@+id/signup_et_confpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_et_lrb"
+        android:layout_marginTop="@dimen/signup_et_mtop"
+        android:layout_marginRight="@dimen/login_et_lrb"
+        android:layout_marginBottom="@dimen/login_et_lrb"
+        android:background="@drawable/login_shape_et"
+        android:ems="10"
+        android:hint="@string/sigunup_et_confirm_hint"
+        android:inputType="textPassword"
+        android:padding="@dimen/login_et_lrb" />
+
+    <Button
+        android:id="@+id/signup_btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/login_et_lrb"
+        android:background="@drawable/signup_shape_btn_create"
+        android:padding="@dimen/signup_et_mtop"
+        android:text="@string/sigunup_btn_create"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_btn_txt" />
+</LinearLayout>

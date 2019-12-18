@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/university_description_background"
+    android:fitsSystemWindows="true"
+    tools:context=".UniversityDescription">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/university_description_btn_add"
+            app:expandedTitleMargin="10dp"
+            app:layout_scrollFlags="scroll |snap |exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/university_description_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/university"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/university_description_tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="pin"
+                app:title=" "
+                app:logo="@drawable/logo" />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:clipToPadding="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/login_et_lrb"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/university_description_tv_kname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/university_description_tv_kname"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="@dimen/login_et_mtop"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/university_description_tv_vname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/login_et_lrb"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/university_description_tv_klevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/university_description_tv_karrange"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="@dimen/university_description_mleve"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/university_description_tv_vlevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/login_et_lrb"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/university_description_tv_kcity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/university_description_tv_kcity"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="@dimen/university_description_mCity"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/university_description_tv_vcity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/login_et_lrb"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/university_description_tv_klanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/university_description_tv_klanguage"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="@dimen/login_et_lrb"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/university_description_tv_vlanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/university_description_tv_kdate_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/university_description_tv_kregister_start_date"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="@dimen/login_img_padding"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/university_description_tv_vdate_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/university_description_tv_kdate_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/university_description_tv_kregister_end_date"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="@dimen/login_img_padding"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/university_description_tv_vdate_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/university_description_tv_kdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/university_description_tv_kdescription"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/login_img_padding"/>
+
+            <TextView
+                android:id="@+id/university_description_tv_vdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/signup_et_mtop"/>
+
+            <TextView
+                android:id="@+id/university_description_tv_klink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/university_description_tv_klink"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/login_img_padding"/>
+
+            <TextView
+                android:id="@+id/university_description_tv_vlink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/login_et_lrb"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/university_description_btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom | end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/university_description_floating_btn"
+        app:fabSize="normal"
+        android:src="@drawable/ic_star_black_24dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+

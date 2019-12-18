@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Login Activity   -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/login_background</item>
+        <item name="colorPrimaryDark">@color/login_background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--  Signup Activity  -->
+    <style name="sigunp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/signup_background</item>
+        <item name="colorPrimaryDark">@color/signup_background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--  Recycler University Activity  -->
+    <style name="RecylerUniversity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Recycler_university_actionbar</item>
+        <item name="colorPrimaryDark">@color/Recycler_university_actionbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--  University Description Activity  -->
+    <style name="UniversityDescriotion" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/university_description_actionbar</item>
+        <item name="colorPrimaryDark">@color/university_description_actionbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
